@@ -17,7 +17,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.events']
 def fetch_contests():
     api_url = 'https://clist.by/api/v4/contest/?upcoming=true&limit=1000'
     headers = {
-        'Authorization': f'ApiKey {os.getenv("CLIST_API_KEY")}'
+        'Authorization': f'ApiKey {os.getenv("CLIST_USERNAME")}:{os.getenv("CLIST_API_KEY")}'
     }
     
     try:
@@ -113,7 +113,7 @@ def clear_calendar(service):
 if __name__ == '__main__':
     service = get_calendar_service()
 
-    to_clear = input('Clear calendar? (y/n): ')
+    to_clear = input('Clear calendar? (y/N): ')
     if to_clear == 'y':
         clear_calendar(service)
 
