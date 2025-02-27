@@ -1,6 +1,6 @@
 # Script to add contests on Clist to Google Calendar
 
-## Setup
+### Setup
 
 1. Clone repository
 
@@ -16,7 +16,7 @@ alias clist-gcal="bash /path/to/clist-gcal.sh"
 
 5. Run with `clist-gcal -i` to install dependencies
 
-## Google Calendar API setup
+### Google Calendar API setup
 
 1. Create your own google cloud project and enable google calendar api
 
@@ -26,7 +26,7 @@ alias clist-gcal="bash /path/to/clist-gcal.sh"
 
 4. Put credentials.json in the same directory as clist-gcal.sh
 
-## Clist API setup
+### Clist API setup
 
 1. Go to https://clist.by/
 
@@ -39,7 +39,7 @@ CLIST_USERNAME=<your_username>
 CLIST_API_KEY=<your_api_key>
 ```
 
-## Usage
+### Usage
 
 ```bash
 clist-gcal
