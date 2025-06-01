@@ -1,4 +1,4 @@
-# Script to add contests on Clist to Google Calendar
+# Script to add contests on CLIST to Google Calendar
 
 ### Setup
 
@@ -26,7 +26,7 @@ alias clist-gcal="bash /path/to/clist-gcal.sh"
 
 4. Put credentials.json in the same directory as clist-gcal.sh
 
-### Clist API setup
+### CLIST API setup
 
 1. Go to https://clist.by/
 
